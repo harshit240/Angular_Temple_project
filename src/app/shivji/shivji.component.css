@@ -1,0 +1,218 @@
+/* Shivji section CSS */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+h4{
+    color:#db4242 ;
+}
+
+.section{
+    position: relative;
+    padding: 110px 0;
+}
+
+.container{
+    width: 100%;
+    padding-right: .75rem;
+    padding-left: .75rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.align-items-center{
+    align-items: center !important;
+}
+
+.img-group{
+    position: relative;
+    text-align: center;
+    padding: 80px;
+}
+
+.img-group-inner span{
+position:absolute;
+top: 68px;
+right: 82px;
+width: 20px;
+height: 20px;
+background-color: purple;
+}
+.img-group-inner span + span{
+top: auto;
+right: auto;
+bottom: 66px;
+left: 82px;
+background-color: purple;
+}
+
+.img-group img:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.img-group img:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+    right: 9px;
+    z-index: -1;
+}
+
+.section-title .title {
+    position: relative;
+    margin: 0;
+    font-size: 51px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.me-lg-30 {
+    margin-left: 52px;
+    margin-bottom: 17px;
+}
+
+.sigma_list {
+    margin: 48px 0;
+}
+
+.sigma_list.list-2 {
+    columns: 2;}
+
+.sigma_list li {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 19px;
+    color: #db4242;
+    font-weight: 600;
+}
+
+p{
+    font-size: 16px;
+}
+
+.blockquote, blockquote {
+    position: relative;
+    margin: 20px 0;
+    font-size: 14px;
+    color: #db4242;
+    padding: 10px 30px;
+    background-position: center;
+    background-size: cover;
+    background-color: #f7f7f7;
+    border-left: 2px solid #7E4555;
+}
+
+.sigma_btn-custom.light {
+    background-color: transparent;
+    color: #db4242;
+    box-shadow: none;
+    border: 2px solid #efefef;
+}
+
+.sigma_btn-custom {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    position: relative;
+    background-color: #7E4555;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    border-radius: 30px;
+    font-weight: 600;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.sigma_btn-custom::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 30px;
+    background-color: #d43308;
+    transform: scaleY(0);
+    transform-origin: 50%;
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.far {
+    font-family: "Font Awesome 5 Pro";
+}
+
+.fa-sharp{
+    margin-left: 12px;
+}
+
+.sigma_btn-custom.light:hover, .sigma_btn-custom.light:focus, .sigma_btn-custom.dark:hover, .sigma_btn-custom.dark:focus{
+    color: white;
+}
+
+.sigma_btn-custom:focus::before, .sigma_btn-custom:hover::before {
+    transform: scaleY(1);
+    opacity: 1;
+    visibility: visible;
+}
+
+.sigma_btn-custom.light::before{
+    background: black;
+}
+
+p.blockquote:before, p.blockquote:after {
+    content: "";
+    position: absolute;
+    left: -9px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 30px;
+    background-color: #7E4555;
+}
+
+p.blockquote::after{
+    left: 6px;
+}
+
+.fa-solid{
+    margin-right: 15px;
+}
+
+.section-title .subtitle {
+    position: relative;
+    margin-bottom: 15px;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #7E4555;
+    font-weight: 700;
+}
+
+.fa-sharp1{
+    align-items: center;
+    font-size: 30px;
+    line-height: 52px;
+    justify-content: center;
+    border-radius: 50%;
+    transition: .3s;
+    margin-right: 10px;
+    color: #7E4555;
+}

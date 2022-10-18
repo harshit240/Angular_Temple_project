@@ -1,0 +1,44 @@
+/*Navbar CSS*/
+.navbar{
+	/*background: #00000063!important;*/
+	background: #ffff;
+	}
+	.navbar-nav li{
+		padding: 0 10px;
+	}
+	.navbar-nav li a{
+		color: black;
+		font-weight: 400;
+		font-size: 15px;
+	}
+	.mob_logo{
+		display: none;
+	}
+	@media(max-width: 768px){
+		.mob_logo{
+			display: block;
+            margin-left: 10px;
+            max-width: 160px;
+		}
+		.desk_logo{
+			display: none;
+		}
+		.navbar{
+			background:#ffff;
+		}
+		.navbar-nav li{
+			text-align: end;
+            text-align: center;
+		}
+        .bg-info{
+            font-size: 15px;
+        }
+	}
+    @media(max-width: 1200px){
+        .navbar-nav li a{
+            color: black;
+            font-weight: 400;
+            font-size: 12px;
+        }
+    }
+/*Navbar CSS END*/

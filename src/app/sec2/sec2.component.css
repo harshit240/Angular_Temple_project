@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.donate_heading{
+    margin: 0 auto 50px;
+    text-align: center;
+}
+.donate_heading_subtitle {
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-bottom: 0;
+    color: #db4242;
+    font-weight: 700;
+    align-items: center;
+    letter-spacing: inherit;
+    justify-content: flex-start;
+}
+.donate_heading_title {
+    margin: 0;
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #44233b;
+    font-family: 'Poppins', sans-serif;
+}
+.donation_article{
+    border: 1px solid #efefef;
+    transition: .3s;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.donation_article:hover{
+    position: relative;
+    transition: 0.1s;
+    top: -0.2%;
+    bottom: 0;
+    left: 0;
+}
+.donation_article img{
+    position: relative;
+}
+.donation_article img:hover{
+    background: rgba(0,0,0,0.5);
+}
+.donation-body{
+    padding: 30px;
+}
+.donation-title a{
+    text-decoration: none;
+    color: #44233b;
+    font-size: 20px;
+    /* font-weight: 600; */
+}
+.para{
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #777;
+}
+.donation-collection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.collected,.target{
+    color: #44233b;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.donation_btn{
+    padding: 10px 12px;
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;    
+    white-space: nowrap;
+    font-weight: 600;
+    overflow: hidden;
+    color: white;
+    background-color: #db4242;
+    border-radius: 55px;
+}
+.donation_btn:hover{
+    background-color:  #7E4555;
+    transition: 0.3s;
+    color: #fff;
+}
