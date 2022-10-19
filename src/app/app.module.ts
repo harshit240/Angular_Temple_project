@@ -11,12 +11,15 @@ import { ShivjiComponent } from './shivji/shivji.component';
 import { Sec1Component } from './sec1/sec1.component';
 import { Sec2Component } from './sec2/sec2.component';
 import { Sec3Component } from './sec3/sec3.component';
-import { Sec4Component } from './sec4/sec4.component';
-import { FestivalsComponent } from './sec4/festivals/festivals.component';
-import { GeetaComponent } from './sec4/geeta/geeta.component';
-import { ReligionComponent } from './sec4/religion/religion.component';
-import { TempleComponent } from './sec4/temple/temple.component';
-import { VedasComponent } from './sec4/vedas/vedas.component';
+import { AdminModule } from './admin/admin.module';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { TestimonialComponent } from './testimonial/testimonial.component';
+import { PoojaComponent } from './pooja/pooja.component';
+import { PoojaFestivalComponent } from './pooja-festival/pooja-festival.component';
+import { PoojaGeetaComponent } from './pooja-geeta/pooja-geeta.component';
+import { PoojaReligionComponent } from './pooja-religion/pooja-religion.component';
+import { PoojaTempleComponent } from './pooja-temple/pooja-temple.component';
+import { PoojaVedasComponent } from './pooja-vedas/pooja-vedas.component';
 
 @NgModule({
   declarations: [
@@ -29,18 +32,20 @@ import { VedasComponent } from './sec4/vedas/vedas.component';
     Sec1Component,
     Sec2Component,
     Sec3Component,
-    Sec4Component,
-    FestivalsComponent,
-    GeetaComponent,
-    ReligionComponent,
-    TempleComponent,
-    VedasComponent
+    PagenotfoundComponent,
+    TestimonialComponent,
+    PoojaComponent,
+    PoojaFestivalComponent,
+    PoojaGeetaComponent,
+    PoojaReligionComponent,
+    PoojaTempleComponent,
+    PoojaVedasComponent
   ],
   imports: [
     BrowserModule,
+    AdminModule,
     AppRoutingModule
   ],
-  exports:[FestivalsComponent],
   providers: [],
   bootstrap: [AppComponent]
 })

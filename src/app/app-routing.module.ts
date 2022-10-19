@@ -1,11 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { FestivalsComponent } from './sec4/festivals/festivals.component';
-import { GeetaComponent } from './sec4/geeta/geeta.component';
-import { TempleComponent } from './sec4/temple/temple.component';
-import { VedasComponent } from './sec4/vedas/vedas.component';
-import { ShivjiComponent } from './shivji/shivji.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { PoojaFestivalComponent } from './pooja-festival/pooja-festival.component';
+import { PoojaGeetaComponent } from './pooja-geeta/pooja-geeta.component';
+import { PoojaReligionComponent } from './pooja-religion/pooja-religion.component';
+import { PoojaTempleComponent } from './pooja-temple/pooja-temple.component';
+import { PoojaVedasComponent } from './pooja-vedas/pooja-vedas.component';
+import { PoojaComponent } from './pooja/pooja.component';
 
 const routes: Routes = [
   {
@@ -13,25 +15,34 @@ const routes: Routes = [
     component:HomeComponent
   },
   {
-    path:'festivals',
-    component:FestivalsComponent
+    path:'all',
+    component:PoojaComponent
   },
   {
-    path:'shivji',
-    component:ShivjiComponent
-  },
-  {
-    path:'vedas',
-    component:VedasComponent
-  },
-  {
-    path:'temple',
-    component:TempleComponent
+    path:'festival',
+    component:PoojaFestivalComponent
   },
   {
     path:'geeta',
-    component:GeetaComponent
+    component:PoojaGeetaComponent
   },
+  {
+    path:'religion',
+    component:PoojaReligionComponent
+  },
+  {
+    path:'temple',
+    component:PoojaTempleComponent
+  },
+  {
+    path:'vedas',
+    component:PoojaVedasComponent
+  },
+  {
+    path:'**',
+    component:PagenotfoundComponent
+  },
+
 ];
 
 @NgModule({

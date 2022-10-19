@@ -1,0 +1,20 @@
+.carousel-caption {
+    bottom: 3.5rem;
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    /* background-color: #e53935 !important; */
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    margin-right: 8px;
+    border: 0;
+  }
+  
+  @media(max-width:1070px) {
+  
+    .carousel-caption {
+      bottom: 1.25rem;
+    }
+  }
