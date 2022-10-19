@@ -8,7 +8,6 @@ import { PoojaReligionComponent } from './pooja-religion/pooja-religion.componen
 import { PoojaTempleComponent } from './pooja-temple/pooja-temple.component';
 import { PoojaVedasComponent } from './pooja-vedas/pooja-vedas.component';
 import { PoojaComponent } from './pooja/pooja.component';
-import { ShivjiComponent } from './shivji/shivji.component';
 
 const routes: Routes = [
   {
