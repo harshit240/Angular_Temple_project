@@ -11,6 +11,7 @@ import { VolunteersAchievementComponent } from './volunteers-achievement/volunte
 import { TestimonialComponent } from './testimonial/testimonial.component';
 import { HelpComponent } from './help/help.component';
 import { PoojasComponent } from './poojas/poojas.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { PoojasComponent } from './poojas/poojas.component';
     VolunteersAchievementComponent,
     TestimonialComponent,
     HelpComponent,
-    PoojasComponent
+    PoojasComponent,
+    ContactComponent
   ],
   imports: [
     CommonModule,

@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ContactComponent } from './contact/contact.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { DonateComponent } from './donate/donate.component';
 import { HelpComponent } from './help/help.component';
@@ -48,6 +49,10 @@ const routes: Routes = [
   {
     path:"admin-help",
     component:HelpComponent
+  },
+  {
+    path:"admin-contact",
+    component:ContactComponent
   }
 ];
 
