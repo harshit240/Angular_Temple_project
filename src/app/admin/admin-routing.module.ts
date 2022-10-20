@@ -1,7 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { BookPoojaComponent } from './book-pooja/book-pooja.component';
+import { ContactComponent } from './contact/contact.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { DonateComponent } from './donate/donate.component';
+import { HelpComponent } from './help/help.component';
+import { PoojasComponent } from './poojas/poojas.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { SliderComponent } from './slider/slider.component';
+import { TableComponent } from './table/table.component';
+import { TestimonialComponent } from './testimonial/testimonial.component';
+import { VolunteersAchievementComponent } from './volunteers-achievement/volunteers-achievement.component';
 
 const routes: Routes = [
   {
@@ -12,6 +21,44 @@ const routes: Routes = [
     path:"admin-sidebar",
     component:SidebarComponent
   },
+  {
+    path:"admin-table",
+    component:TableComponent
+
+  },
+  {
+    path:"admin-slider",
+    component:SliderComponent
+
+  },
+  {
+    path:"admin-donate",
+    component:DonateComponent
+  },
+  {
+    path:"admin-achievement",
+    component:VolunteersAchievementComponent
+  },
+  {
+    path:"admin-testimonial",
+    component:TestimonialComponent
+  },
+  {
+    path:"admin-pooja",
+    component:PoojasComponent
+  },
+  {
+    path:"admin-help",
+    component:HelpComponent
+  },
+  {
+    path:"admin-contact",
+    component:ContactComponent
+  },
+  {
+    path:"admin-book_pooja",
+    component:BookPoojaComponent
+  }
 ];
 
 @NgModule({
