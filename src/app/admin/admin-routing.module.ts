@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { BookPoojaComponent } from './book-pooja/book-pooja.component';
 import { ContactComponent } from './contact/contact.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { DonateComponent } from './donate/donate.component';
@@ -53,6 +54,10 @@ const routes: Routes = [
   {
     path:"admin-contact",
     component:ContactComponent
+  },
+  {
+    path:"admin-book_pooja",
+    component:BookPoojaComponent
   }
 ];
 

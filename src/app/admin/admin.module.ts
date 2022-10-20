@@ -12,6 +12,7 @@ import { TestimonialComponent } from './testimonial/testimonial.component';
 import { HelpComponent } from './help/help.component';
 import { PoojasComponent } from './poojas/poojas.component';
 import { ContactComponent } from './contact/contact.component';
+import { BookPoojaComponent } from './book-pooja/book-pooja.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { ContactComponent } from './contact/contact.component';
     TestimonialComponent,
     HelpComponent,
     PoojasComponent,
-    ContactComponent
+    ContactComponent,
+    BookPoojaComponent
   ],
   imports: [
     CommonModule,
