@@ -1,20 +1,55 @@
-.carousel-caption {
-    bottom: 3.5rem;
-  }
-  
-  .carousel-indicators [data-bs-target] {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    /* background-color: #e53935 !important; */
-    background: linear-gradient(135deg, #71b7e6, #9b59b6);
-    margin-right: 8px;
-    border: 0;
-  }
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-  @media(max-width:1070px) {
-  
-    .carousel-caption {
-      bottom: 1.25rem;
-    }
+.carousel-caption {
+  bottom: 3.5rem;
+}
+.carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  /* background-color: #e53935 !important; */
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  margin-right: 8px;
+  border: 0;
+}
+.testimonial_heading_subtitle {
+  margin-bottom: 15px;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-bottom: 0;
+  color: #db4242;
+  font-weight: bold !important;
+  align-items: center;
+  letter-spacing: inherit;
+  justify-content: flex-start;
+}
+.testimonial_heading_title {
+  color: #44233b;
+  position: relative;
+  margin: 0;
+  font-size: 46px;
+  line-height: 1.2;
+  font-family: poppins, sans-serif;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+.blockquote-footer {
+  font-size: 20px;
+  margin: 3px;
+  color: #44233b;
+  font-weight: 500;
+}
+.blockquote_para {
+  color: #818181;
+}
+.blockquote {
+  background-color: #fff;
+  border-left: 0.4rem solid red;
+  margin: 1.5em 0.7rem;
+  padding: 0.5em 0.7rem;
+}
+@media (max-width: 1070px) {
+  .carousel-caption {
+    bottom: 1.25rem;
   }
+}
