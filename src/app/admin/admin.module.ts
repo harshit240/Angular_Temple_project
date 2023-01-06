@@ -17,7 +17,6 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from "@angular/common/http";
 import { Pipe1Pipe } from './pipes/pipe1.pipe';
 import  { Injector} from '@angular/core';
-import { createCustomElement } from '@angular/elements';
 import { CarouselComponent } from './includes/carousel/carousel.component';
 import { FlipCardsComponent } from './includes/flip-cards/flip-cards.component';
 import { ChooseUsComponent } from './includes/choose-us/choose-us.component';
