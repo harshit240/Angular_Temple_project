@@ -1,5 +1,5 @@
 {
-  "name": "angular-temple-project",
+  "name": "syansoft-angular",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -14,10 +14,13 @@
     "@angular/common": "^14.0.0",
     "@angular/compiler": "^14.0.0",
     "@angular/core": "^14.0.0",
+    "@angular/elements": "^14.2.12",
     "@angular/forms": "^14.0.0",
     "@angular/platform-browser": "^14.0.0",
     "@angular/platform-browser-dynamic": "^14.0.0",
     "@angular/router": "^14.0.0",
+    "counterup2": "^2.0.2",
+    "ngx-owl-carousel-o": "^14.0.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"

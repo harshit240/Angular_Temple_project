@@ -1,0 +1,152 @@
+<div class="container">
+    <div class="table table-dark">
+        <table class="table-dark table">
+            <thead>
+                <th scope="col">Button</th>
+                <th scope="col">Name</th>
+                <th scope="col">Registration name</th>
+                <th scope="col">Date of Registration</th>
+                <th scope="col">Expiry</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">
+                        <button class="btn shbtn text-white" (click)="Ourid='1'">+</button>
+                    </th>
+                    <td>
+                        Rohan
+                    </td>
+                    <td>ty17980</td>
+                    <td>20/2/2021</td>
+                    <td>20/2/2023</td>
+                </tr>
+                <tr>
+                    <th scope="row">
+                        <button class="btn shbtn text-white" (click)="Ourid='2'">+</button>
+                    </th>
+                    <td>
+                        Kamlesh
+                    </td>
+                    <td>ty63980</td>
+                    <td>20/3/2021</td>
+                    <td>20/4/2023</td>
+                </tr>
+                <tr>
+                    <th scope="row">
+                        <button class="btn shbtn text-white" (click)="Ourid='3'">+</button>
+                    </th>
+                    <td>
+                        shyam
+                    </td>
+                    <td>ty17980</td>
+                    <td>20/8/2021</td>
+                    <td>20/12/2023</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <table class="table">
+        <thead>
+            <th scope="col">Entity Name</th>
+            <th scope="col">PAN</th>
+            <th scope="col">Service Opted</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of tableData">
+                <td *ngIf="item.id == Ourid">{{item.name}}</td>
+                <td *ngIf="item.id == Ourid">{{item.age}}</td>
+                <td *ngIf="item.id == Ourid">{{item.email}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<br><br><br><br><br><br>
+<!-- Cards -->
+<div class="container-fluid my-5">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card spc_card">
+                <div class="icon spc_icon text-center">
+                    <i class="fa-regular fa-circle-check"></i>
+                </div>
+                <div class="card-body spc_body">
+                    <h5 class="text-white text-center ">TOTAL DOCUMENTS</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="row">
+                <!-- Acknowledged  -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="icon1 text-center">
+                            <i class="fa-solid fa-list-check"></i>
+                        </div>
+                        <div class="card-body body1">
+                            <h5 class="text-white text-center ">Acknowledged</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Rejected -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="icon2 text-center">
+                            <i class="fa-solid fa-thumbs-down"></i>
+                        </div>
+                        <div class="card-body body2">
+                            <h5 class="text-white text-center ">Rejected</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- clarified -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="icon3 text-center">
+                            <i class="fa-solid fa-circle-check"></i>
+                        </div>
+                        <div class="card-body body3">
+                            <h5 class="text-white text-center ">Clarified</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Accepted -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="icon4 text-center">
+                            <i class="fa-solid fa-thumbs-up"></i>
+                        </div>
+                        <div class="card-body body4">
+                            <h5 class="text-white text-center ">ACCEPTED</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Hold -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="icon5 text-center">
+                            <i class="fa-solid fa-hand"></i>
+                        </div>
+                        <div class="card-body body5">
+                            <h5 class="text-white text-center ">Hold</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cancelled -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="icon6 text-center">
+                            <i class="fa-solid fa-circle-xmark"></i>
+                        </div>
+                        <div class="card-body body6">
+                            <h5 class="text-white text-center ">ACCEPTED</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,52 +1,24 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
-import { PoojaFestivalComponent } from './pooja-festival/pooja-festival.component';
-import { PoojaGeetaComponent } from './pooja-geeta/pooja-geeta.component';
-import { PoojaReligionComponent } from './pooja-religion/pooja-religion.component';
-import { PoojaTempleComponent } from './pooja-temple/pooja-temple.component';
-import { PoojaVedasComponent } from './pooja-vedas/pooja-vedas.component';
-import { PoojaComponent } from './pooja/pooja.component';
+import { AboutComponent } from './admin/pages/about/about.component';
+import { TableAndCardsComponent } from './table-and-cards/table-and-cards.component';
 
 const routes: Routes = [
+  
   {
     path:'',
-    component:HomeComponent
+    loadChildren:()=>
+    import("./admin/admin.module").then(m=>m.AdminModule)
   },
   {
-    path:'all',
-    component:PoojaComponent
-  },
-  {
-    path:'festival',
-    component:PoojaFestivalComponent
-  },
-  {
-    path:'geeta',
-    component:PoojaGeetaComponent
-  },
-  {
-    path:'religion',
-    component:PoojaReligionComponent
-  },
-  {
-    path:'temple',
-    component:PoojaTempleComponent
-  },
-  {
-    path:'vedas',
-    component:PoojaVedasComponent
-  },
-  {
-    path:'**',
-    component:PagenotfoundComponent
-  },
+    path:'tableandcards',
+    component:TableAndCardsComponent
+  }
 
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes,{scrollPositionRestoration:'enabled'})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

@@ -1,0 +1,67 @@
+/* ====================================================== */
+/* Why choose us section */
+.why {
+    background: #928c8c;
+  }
+  .why_choose_section2 {
+      position: relative;
+      right: -5%;
+      margin: 0; 
+      padding-right: -57px;
+  }
+  .why_choose_section2 img {
+    width: 100%;
+    height: auto;
+  }
+  .why_choose_title {
+    font-family: "oswald";
+  }
+  .why_choose_subheadings {
+    font-weight: 600;
+    color: #46a85a;
+    font-size: 24px;
+  }
+  .why_choose_para p {
+    margin: 23px 0;
+    line-height: 2;
+    font-size: 20px;
+  }
+  .counter {
+    color: #273a96;
+    font-size: 53px;
+    font-family: "Anton";
+    font-weight: 600;
+    word-spacing: 0;
+  }
+  .addMark {
+    color: #273a96;
+    /* font-family: "Anton"; */
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .counter:not(.is-visible) {
+    visibility: visible;
+  }
+  .yojo {
+    color: #46a85a;
+  }
+  .elementor-counter-number-wrapper {
+    border-right: 1px solid rgb(241, 233, 233);
+  }
+  .top_client {
+    border-top: 1px solid rgb(241, 233, 233);
+  }
+  .clients_title{
+    font-family: 'oswald';
+  }
+  @media (max-width: 960px) {
+    .why_choose_section2 {
+      display: none;
+    }
+  }
+  @media (max-width: 768px) {
+    .elementor-counter-number-wrapper:nth-child(1) {
+      border: 0;
+      color: #000;
+    }
+  }

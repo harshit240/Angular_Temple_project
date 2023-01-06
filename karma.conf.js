@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/angular-temple-project'),
+      dir: require('path').join(__dirname, './coverage/syansoft-angular'),
       subdir: '.',
       reporters: [
         { type: 'html' },

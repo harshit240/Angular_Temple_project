@@ -1,63 +1,46 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { BookPoojaComponent } from './book-pooja/book-pooja.component';
-import { ContactComponent } from './contact/contact.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { DonateComponent } from './donate/donate.component';
-import { HelpComponent } from './help/help.component';
-import { PoojasComponent } from './poojas/poojas.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
-import { SliderComponent } from './slider/slider.component';
-import { TableComponent } from './table/table.component';
-import { TestimonialComponent } from './testimonial/testimonial.component';
-import { VolunteersAchievementComponent } from './volunteers-achievement/volunteers-achievement.component';
+import { NotFound404Component } from './includes/not-found404/not-found404.component';
+import { AboutComponent } from './pages/about/about.component';
+import { BlogComponent } from './pages/blog/blog.component';
+import { CareersComponent } from './pages/careers/careers.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { HomeComponent } from './pages/home/home.component';
+import { ItStaffingComponent } from './pages/it-staffing/it-staffing.component';
+import { ServiceComponent } from './pages/service/service.component';
 
 const routes: Routes = [
   {
-    path:"admin-dashboard",
-    component:DashboardComponent
+    path:'',
+    component:HomeComponent
   },
   {
-    path:"admin-sidebar",
-    component:SidebarComponent
+    path:'about',
+    component:AboutComponent
   },
   {
-    path:"admin-table",
-    component:TableComponent
-
+    path:'staffing',
+    component:ItStaffingComponent
   },
   {
-    path:"admin-slider",
-    component:SliderComponent
-
+    path:'blog',
+    component:BlogComponent
   },
   {
-    path:"admin-donate",
-    component:DonateComponent
-  },
-  {
-    path:"admin-achievement",
-    component:VolunteersAchievementComponent
-  },
-  {
-    path:"admin-testimonial",
-    component:TestimonialComponent
-  },
-  {
-    path:"admin-pooja",
-    component:PoojasComponent
-  },
-  {
-    path:"admin-help",
-    component:HelpComponent
-  },
-  {
-    path:"admin-contact",
+    path:'contact',
     component:ContactComponent
   },
   {
-    path:"admin-book_pooja",
-    component:BookPoojaComponent
+    path:'career',
+    component:CareersComponent
+  },
+  {
+    path:'service',
+    component:ServiceComponent
+  },
+  {
+    path:'**',
+    component:NotFound404Component
   }
 ];
 

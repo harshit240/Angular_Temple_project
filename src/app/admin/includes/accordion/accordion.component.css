@@ -1,0 +1,176 @@
+.accordion-heading {
+  padding: 32px;
+  cursor: pointer;
+  background: #fff;
+  color: #000;
+  font-family: "oswald";
+  font-weight: 600;
+  font-size: 23px;
+  margin-top: 10px;
+  padding-left: 0;
+  text-transform: capitalize;
+  border-radius: 2px;
+  box-shadow: 7px 2px 22px -1px rgb(0 0 0 / 15%);
+}
+.accordion-content {
+  box-shadow: 5px 5px 54px -10px rgb(0 0 0 / 15%);
+  padding: 10px;
+  background: rgb(252, 243, 243);
+  border: 1px solid rgb(252, 243, 243);
+  border-bottom-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+.accordian {
+  transition: all 0.5s ease;
+  margin-top: 10px;
+}
+.toggle-icon {
+  background-color: #46a85a;
+  margin-right: 20px;
+  padding: 36px 39px 37px 39px;
+}
+.toggle-icon i {
+  font-size: 19px;
+  color: white;
+  font-weight: bolder;
+}
+.country {
+  color: #46a85a!important;
+  font-size: 22px!important;
+  padding: 4px!important;
+}
+.headings {
+  font-size: 32px;
+  font-family: "Oswald";
+  line-height: 42px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.content {
+  font-family: 'oswald';
+  font-size: 20px;
+  color: #333;
+  opacity: 1;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+.accordion-content {
+  padding: 1.5rem;
+  background: #ffff;
+}
+.accordion-content ul li {
+  padding: 5px 0;
+  font-family: 'oswald'!important;
+  font-size: 20px;
+}
+.accordion-content ul li::marker {
+  color: #46a85a;
+  font-size: 26px;
+  line-height: 35px;
+}
+.refer-box {
+  display: block;
+  flex-wrap: wrap;
+}
+.left-box {
+  color: #46a85a;
+  font-family: "oswald";
+}
+.left-box a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #46a85a;
+}
+.left-box a:hover{
+  font-size: 25px;
+  transition: all 0.6s ease-in-out;
+}
+.right-box {
+  text-align: right;
+  margin-top: -36px;
+}
+.apply {
+  padding: 10px 20px;
+  color: #fff;
+  background: #46a85a;
+  border-radius: 1px;
+}
+.apply:hover{
+  transform: scale(1.15);
+  transition: all 0.6s ease-in-out;
+}
+.left-box::before {
+  content: "";
+  background: url(/assets/images/astra.png);
+  height: 20px;
+  width: 25px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 23px;
+  background-position: center;
+  margin-right: 10px;
+}
+@media (max-width: 400px) {
+  .accordion-heading {
+    padding: 12px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 10px;
+    padding-left: 0;
+  }
+  .toggle-icon {
+    margin-right: 10px;
+    padding: 15px;
+  }
+  .country{
+    font-size: 16px!important;
+  }
+  .left-box a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #46a85a;
+  }
+  .accordion-content ul li {
+    padding: 5px 0;
+    font-family: 'oswald';
+    font-size: 18px;
+  }
+  .apply {
+    padding: 5px 10px;
+    border-radius: 1px;
+  }
+}
+@media (max-width: 300px) {
+  .accordion-heading {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .accordion-content ul li {
+    padding: 5px 0;
+    font-style: italic;
+    font-size: 13px;
+  }
+  .right-box {
+    text-align: right;
+    margin-top: 0px;
+  }
+  .toggle-icon {
+    margin-right: 2px;
+    padding: 8px;
+  }
+  .accordion-content ul li::marker {
+    color: #46a85a;
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .country{
+    font-size: 14px!important;
+  }
+  .toggle-icon i {
+    font-size: 11px;
+  }
+  .right-box{
+    margin-top: 10px;
+    text-align: center;
+  }
+}

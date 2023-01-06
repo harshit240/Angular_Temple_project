@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Angular_Temple_project": {
+    "Syansoft_angular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-temple-project",
+            "outputPath": "dist/syansoft-angular",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -24,8 +24,11 @@
             ],
             "styles": [
               "src/styles.css"
-            ],
-            "scripts": []
+              ],
+            "scripts": [
+              "src/assets/js/navbarScroll.js",
+              "src/assets/js/awardsSroll.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -64,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Angular_Temple_project:build:production"
+              "browserTarget": "Syansoft_angular:build:production"
             },
             "development": {
-              "browserTarget": "Angular_Temple_project:build:development"
+              "browserTarget": "Syansoft_angular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +78,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Angular_Temple_project:build"
+            "browserTarget": "Syansoft_angular:build"
           }
         },
         "test": {

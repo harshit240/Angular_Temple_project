@@ -1,0 +1,123 @@
+.get_touch{
+    background: url(/assets/images/business-image-1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    height: 400px;
+    margin-bottom: 430px;
+}
+.get_in_touch_heading{
+    font-family: 'oswald';
+}
+.get_in_touch_subheading{
+    margin-left: 10px;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 26px;
+}
+.icons span i{
+    background-color: #f2f3f9;
+    color: #46a85a;
+    border-radius: 50px;
+    font-size: 27px;
+    padding: 9px 13px;
+}
+.icons2 span i{
+    background-color: #f2f3f9;
+    color: #46a85a;
+    border-radius: 50px;
+    font-size: 27px;
+    padding: 12px 13px;
+}
+.icon-box-title{
+    color: #273a96;
+    font-weight:800;
+}
+.icon-box-description{
+    color: #273a96;
+     font-weight:600;
+}
+.icon-box-content{
+    margin-left: 18px;
+}
+.icon-box-content2{
+    margin-left: 18px;
+    margin-top: 14px;
+}
+.imp_headings{
+    margin-top: 60px;
+    margin-left: 44px;
+}
+.contact_bx{
+    background: #fff;
+    border: 1px solid rgb(241, 233, 233);
+    position: absolute;
+}
+.box1{
+    padding: 20px;
+    display: flex;
+    border-right: 1px solid rgb(241, 233, 233);
+}
+.box2{
+    padding: 10px;
+    display: flex;
+}
+
+.con-form input{
+    width: 88%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(241, 233, 233);
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgb(241, 233, 233);
+    appearance: none;
+    outline: 0;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.con-form textarea{
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(241, 233, 233);
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    outline: 0;
+    padding: 0 12px;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.send_messagebtn{
+    color: #ffff;
+    outline: 0;
+    padding: 12px 26px;
+    border: 0;
+    cursor: pointer;
+    background: #46a85a;
+}
+.send_messagebtn:hover{
+    background-color: #273a96;
+    transition: all 0.8s;
+    font-size: 18px;
+    
+}
+.humara_form{
+    border: 1px solid rgb(241, 233, 233);
+}
+
+@media(max-width:600px){
+    .imp_headings{
+        margin: 0;
+    }
+    .box2{
+        padding-left: 0;
+    }
+}

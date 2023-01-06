@@ -1,0 +1,90 @@
+.carousel_banner {
+  background: linear-gradient(rgb(39, 58, 150, 0.4), rgba(39, 58, 150, 0.4));
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 700px;
+}
+.img_on_banner {
+  position: relative;
+}
+.img_on_banner_content {
+  position: absolute;
+  top: 10%;
+}
+.banner_content_heading {
+  color: white;
+  text-transform: uppercase;
+  font-size: 50px;
+  line-height: 1.5;
+  font-weight: bold;
+  font-family: "oswald";
+  margin: 55px 0 20px 0;
+  min-height: 0px;
+  min-width: 0px;
+  max-height: none;
+  max-width: none;
+}
+.banner_content_para {
+  color: white;
+  font-family: "oswald";
+  line-height: 2;
+  font-size: 20px;
+  margin-bottom: 42px;
+}
+.firstbtn {
+  cursor: pointer;
+  outline: 0;
+  background-color: #37b043;
+  border-width: 0;
+  color: #ffff;
+  font-weight: 500;
+  line-height: 27px;
+  padding: 11px 25px;
+  margin: 0 15px;
+  transform: translate3d(0px, 0px, 0px) scale(1.0977, 1.0977);
+}
+.secondbtn {
+  transform: translate3d(0px, 0px, 0px) scale(1.0977, 1.0977);
+  padding: 11px 25px;
+  border-width: 0;
+  overflow-x: hidden;
+  font-weight: 500;
+  cursor: pointer;
+  line-height: 27px;
+  outline: 0;
+  background-color: white;
+  margin: 0 15px;
+  transform-origin: 50% 50%;
+  color: black;
+  white-space: nowrap;
+  text-align: right;
+}
+.firstbtn:hover {
+  background-color: #ffff;
+  color: black;
+  transition: all 0.8s;
+  transform: scale(1.25);
+}
+.buttons{
+  display: flex;
+}
+.secondbtn:hover {
+  transform: scale(1.25);
+  color: white;
+  transition: all 0.8s;
+  background-color: #37b043;
+}
+@media(max-width:765px){
+    .banner_content_heading{
+        font-size: 38px;
+    }
+    .banner_content_para{
+        font-size: 18px;
+    }
+    .firstbtn,.secondbtn{
+        line-height: 24px;
+        padding: 10px 20px;
+    }
+}

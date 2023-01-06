@@ -1,0 +1,337 @@
+
+
+/* Awards section */
+/* ====================================================== */
+.awards_sec {
+  background-image: url(https://demowebsite.saturnwp.link/wp-content/uploads/2022/10/award-bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+.awards_heading {
+  text-align: center;
+  font-family: "oswald";
+  padding: 3rem;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+.slick-slide {
+  text-align: center !important;
+  justify-content: center;
+  margin: 0px 10px;
+}
+.slick-slide img {
+  max-width: 100%;
+  height: auto;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #000;
+}
+/* ===================================================================== */
+/* What our clients have to say */
+.feedback_rec {
+  background: linear-gradient(rgb(39, 58, 150, 0.5), rgba(39, 58, 150, 0.5)),
+    url(/assets/images/business-people.png);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-top: 65px;
+  height: 650px;
+}
+.feedback_title,.clients_title {
+  font-family: "oswald";
+}
+.designation {
+  color: #46a85a;
+  text-transform: uppercase;
+}
+#carouselExampleNew {
+  position: absolute;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.carousel-caption {
+  bottom: 3.5rem;
+}
+.carousel-indicators [data-bs-target] {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #46a85a, #46a85a);
+  margin-right: 8px;
+  outline: 0;
+  border: 2px solid #fff;
+}
+.testimonial_heading_subtitle {
+  margin-bottom: 15px;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-bottom: 0;
+  color: #db4242;
+  font-weight: bold !important;
+  align-items: center;
+  letter-spacing: inherit;
+  justify-content: flex-start;
+}
+.testimonial_heading_title {
+  color: #44233b;
+  position: relative;
+  margin: 0;
+  font-size: 46px;
+  line-height: 1.2;
+  font-family: poppins, sans-serif;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+.blockquote-footer {
+  font-size: 20px;
+  margin: 3px;
+  color: #44233b;
+  font-weight: 500;
+}
+.blockquote_para {
+  color: #ffff;
+  width: 100%;
+}
+.blockquote {
+  color: #ffff;
+  line-height: 50px;
+  margin: 1.5em 0.7rem;
+  padding: 0.5em 0.7rem;
+}
+@media (max-width: 1070px) {
+  .carousel-caption {
+    bottom: 1.25rem;
+  }
+}
+@media (max-width: 768px) {
+  .blockquote {
+    color: #ffff;
+    line-height: 33px;
+    margin: 1.5em 0.7rem;
+    padding: 0.6rem 0.7rem;
+  }
+}
+@media (max-width: 600px) {
+  .blockquote {
+    color: #ffff;
+    line-height: 30px;
+    margin: 1.5em 0.7rem;
+    padding: 0.6rem 0.7rem;
+  }
+}
+@media (max-width: 480px) {
+  .blockquote {
+    color: #ffff;
+    line-height: 30px;
+    margin: 1.5em 0.7rem;
+    padding: 0.6rem 0.7rem;
+  }
+}
+@media (max-width: 400px) {
+  .blockquote {
+    line-height: 25px;
+  }
+  .awards_heading {
+    font-size: 1.5rem;
+  }
+  .blockquote_para {
+    font-size: 15px;
+  }
+}
+@media (max-width: 300px) {
+  .carousel-inner {
+    padding-top: 25px !important;
+  }
+}
+/* ========================================================================================= */
+/* Digital core capabilities */
+.core_capa_banner {
+  background: url(/assets/images/man-hand-holding-virtual-world.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 800px;
+  position: relative;
+}
+.capabilities_container {
+  background-color: #ffff;
+  opacity: 0.8;
+  text-align: center;
+  justify-content: center;
+  /* margin-top: 100px; */
+  margin: 100px 30px 20px 30px;
+  padding: 27px;
+  position: relative;
+}
+.digital_capa {
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+}
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+.core_capa_heading {
+  color: #1a1b1d;
+  font-family: "Oswald";
+  letter-spacing: -1px;
+}
+.core_capa_subheading {
+  font-size: 30px;
+  /* margin: 25px 25px 0 25px; */
+  margin: 23px 8px 0 8px !important;
+  font-weight: 400;
+  color: #46a85a;
+}
+.core_capa_para {
+  padding: 40px;
+  height: 340px;
+}
+.core_capa_para p {
+  opacity: 0.9;
+  /* text-align: justify; */
+  font-size: 20px;
+  line-height: 2;
+}
+.get_touch_btn {
+  padding: 10px 24px;
+  color: white;
+  font-size: 20px;
+  background-color: #46a85a;
+  border: 0;
+  outline: 0;
+}
+.get_touch_btn:hover {
+  font-size: 26px;
+  background: #000;
+  opacity: 0.8;
+  color: #fff;
+  transition: all 0.9s;
+}
+@media (max-width: 300px) {
+  .core_capa_para {
+    padding: 25px;
+    height: 1000px !important;
+    line-height: 1 !important;
+  }
+  .core_capa_banner {
+    height: 800px !important;
+  }
+  .capabilities_container {
+    padding: 12px;
+    opacity: 0.9 !important;
+    height: 786px;
+  }
+  .core_capa_banner {
+    padding-top: 0 !important;
+  }
+}
+@media (max-width: 400px) {
+  .capabilities_container {
+    padding: 12px;
+    opacity: 0.9 !important;
+    height: 650px;
+  }
+}
+@media (max-width: 600px) {
+  .core_capa_para p {
+    opacity: 0.9;
+    font-size: 15px;
+    line-height: 2;
+  }
+  .core_capa_subheading {
+    font-size: 20px;
+  }
+}
+@media (max-width: 720px) {
+  .core_capa_subheading {
+    font-size: 22px;
+    margin: 23px 8px 17px 8px !important;
+    font-weight: 400;
+  }
+  .capabilities_container {
+    margin: 0 !important;
+  }
+}
+@media (max-width: 960px) {
+  .core_capa_para {
+    padding: 0px !important;
+    font-size: 15px;
+    height: 400px !important;
+    line-height: 1.5;
+  }
+}
+@media (max-width: 1140px) {
+  .capabilities_container {
+    margin: 100px 0px 20px 0px;
+  }
+  .core_capa_para {
+    padding: 40px;
+    height: 380px;
+  }
+}
+
+/* Learning center */
+/* ==================================================== */
+.learning-center{
+  background: #e9ecf5;
+  padding-bottom: 50px;
+}
+.learning_cards .card{
+  transition: all 0.5s ease-in-out;
+}
+.learning_cards .card:hover{
+  transform: scale(1.06);
+  background-color: #5b6bb9;
+  color: white;
+  transition: all 0.8s;
+}
+.learning-center-title {
+  font-family: "oswald";
+  font-size: 40px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.learning-center-subheading {
+  color: #46a85a;
+  padding-bottom: 30px;
+}
+.learning_cards{
+  position: relative;
+  margin: 18px 0px;
+  text-align: center;
+}
+.card{
+  margin-bottom: 20px;
+  cursor: pointer;
+  width: 100%!important;
+}
+.card-body{
+  padding: 1.5rem 1rem;
+}
+
+.card-text{
+  line-height: 26.5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.arrow {
+  background-color: #37b043;
+  color: #fff;
+  margin-top: 10px;
+  position: absolute;
+  justify-content: center;
+  top: 91%;
+  border-radius: 100px;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 7px 13px;
+  right: 43%;
+  transition: all 0.3s ease-in-out;
+}
+.arrow:hover{
+  background: #273a96;
+  transform: scale(1.15);
+}

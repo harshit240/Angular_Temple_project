@@ -1,0 +1,128 @@
+.main-footer {
+  background-image: none;
+  background-color: #f2f3f9;
+  z-index: 20;
+}
+.footer{
+    margin: 34px;
+}
+.footer-text {
+  line-height: 2;
+  color: #273a96;
+  font-size: 17;
+  font-weight: 600;
+}
+.widget-title {
+  font-family: "sans-serif", "Oswald";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #273a96;
+  /* margin-left: 35px; */
+  text-align: center;
+  margin-bottom: 20px;
+}
+.footer_pages_link ul li a {
+  color: #273a96;
+  font-size: large;
+  text-decoration: none;
+  /* text-align: justify; */
+}
+.footer_pages_link li {
+    text-align: center;
+  padding: 5px 0.5rem !important;
+}
+.tnp form{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.tnp input.tnp-email {
+  width: auto;
+  display: inline-block;
+  height: 60px;
+  background-color: var(--ast-global-color-5);
+  border: none;
+  color: #ddd;
+  padding-inline-start: 30px;
+  background-color: #fff;
+  /* border: 1px solid #273a96; */
+  /* outline: 1px solid #273a96; */
+  outline: 0;
+}
+.tnp input.tnp-submit{
+    width: auto;
+    background-color: #37b043;
+    display: inline-block;
+    height: 60px;
+    font-size: 16px!important;
+    padding: 18px 15px;
+    border: 1px;
+    border-color: #ddd;
+    background-image: none;
+    text-shadow: none;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 0px;
+    height: auto;
+}
+.social-icons ul{
+    display: flex;
+    justify-content: center;
+}
+.social-icons{
+    text-align: center;
+    padding: auto;
+}
+.social-icons ul li{
+    padding: 8px!important;
+}
+.social-icons li a{
+    border-radius: 40px;
+    padding: 8px 14px!important;
+    text-decoration: none;
+    border: 10px;
+    color: white;
+    background-color: #273a96;
+}
+.site-footer-section1{
+    color: #273a96;
+}
+.site-footer-section2{
+    color: #273a96;
+    text-align: end;
+}
+@media (max-width:550px){
+    .main-footer{
+        margin-top: 700px!important;
+    }
+    .sec2,.sec3{
+        display: none;
+    }
+    .sec1{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .sec4{
+        text-align: center;
+    }
+    .sec4{
+        text-align: center;
+    }
+    /* .social-icons ul{
+        text-align: center;
+        margin: auto;
+    } */
+    .site-footer-section1,.site-footer-section2{
+        text-align: center;
+    }
+}
+@media (max-width:930px){
+    .widget-title{
+        text-align: center;
+    }
+    .tnp-form{
+        text-align: center;
+    }
+}

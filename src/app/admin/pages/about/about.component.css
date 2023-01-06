@@ -1,0 +1,315 @@
+.about_us {
+  background: linear-gradient(rgb(39, 58, 150, 0.5), rgba(39, 58, 150, 0.5)),
+    url(/assets/images/about-us.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+}
+._aboutTitle {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "oswald";
+  letter-spacing: 5px;
+  padding-top: 253px;
+}
+/* Welcome to Syansoft */
+/* ======================= */
+.title {
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-family: "prague";
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: #46a85a;
+  font-size: 40px;
+}
+
+.p1 {
+  line-height: 35px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  padding-right: 5px;
+  text-align: justify;
+}
+.img {
+  width: 80%;
+}
+#b1 {
+  padding: 10px 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+@media (max-width: 765px) {
+  #b1 {
+    margin: 20px 0;
+  }
+}
+#b1:hover {
+  font-size: 20px;
+  transition: all 0.8s ease-in-out;
+}
+/* ========================================================================================= */
+/* Digital core capabilities */
+.core_capa_banner {
+  background: url(/assets/images/man-hand-holding-virtual-world.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 800px;
+  position: relative;
+}
+.capabilities_container {
+  background-color: #ffff;
+  opacity: 0.8;
+  text-align: center;
+  justify-content: center;
+  /* margin-top: 100px; */
+  margin: 100px 30px 20px 30px;
+  padding: 27px;
+  position: relative;
+}
+.digital_capa {
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+}
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+.core_capa_heading {
+  color: #1a1b1d;
+  font-family: "Oswald";
+  letter-spacing: -1px;
+}
+.core_capa_subheading {
+  font-size: 30px;
+  /* margin: 25px 25px 0 25px; */
+  margin: 23px 8px 0 8px !important;
+  font-weight: 400;
+  color: #46a85a;
+}
+.core_capa_para {
+  padding: 40px;
+  height: 340px;
+}
+.core_capa_para p {
+  opacity: 0.9;
+  /* text-align: justify; */
+  font-size: 20px;
+  line-height: 2;
+}
+.get_touch_btn {
+  padding: 10px 24px;
+  color: white;
+  font-size: 20px;
+  background-color: #46a85a;
+  border: 0;
+  outline: 0;
+}
+.get_touch_btn:hover {
+  font-size: 26px;
+  background: #000;
+  opacity: 0.8;
+  color: #fff;
+  transition: all 0.9s;
+}
+@media (max-width: 300px) {
+  .core_capa_para {
+    padding: 25px;
+    height: 1000px !important;
+    line-height: 1 !important;
+  }
+  .core_capa_banner {
+    height: 800px !important;
+  }
+  .capabilities_container {
+    padding: 12px;
+    opacity: 0.9 !important;
+    height: 786px;
+  }
+  .core_capa_banner {
+    padding-top: 0 !important;
+  }
+}
+@media (max-width: 400px) {
+  .capabilities_container {
+    padding: 12px;
+    opacity: 0.9 !important;
+    height: 650px;
+  }
+}
+@media (max-width: 600px) {
+  .core_capa_para p {
+    opacity: 0.9;
+    font-size: 15px;
+    line-height: 2;
+  }
+  .core_capa_subheading {
+    font-size: 20px;
+  }
+}
+@media (max-width: 720px) {
+  .core_capa_subheading {
+    font-size: 22px;
+    margin: 23px 8px 17px 8px !important;
+    font-weight: 400;
+  }
+  .capabilities_container {
+    margin: 0 !important;
+  }
+}
+@media (max-width: 960px) {
+  .core_capa_para {
+    padding: 0px !important;
+    font-size: 15px;
+    height: 400px !important;
+    line-height: 1.5;
+  }
+}
+@media (max-width: 1140px) {
+  .capabilities_container {
+    margin: 100px 0px 20px 0px;
+  }
+  .core_capa_para {
+    padding: 40px;
+    height: 380px;
+  }
+}
+
+/* Our Leadership team */
+/* =========================================================== */
+.our_leadership_team_title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'oswald';
+}
+.team_container .front{
+    background-image: url(/assets/images/Team-3.png);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    bottom: 0;
+    transition: all 0.4s;
+}
+.our-team{
+    padding: 30px 0 40px;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    border:1px dotted #ccc;
+    transition: all 0.5s;
+}
+h1{
+    margin-bottom:15px;
+}
+.our-team .pic{
+    display:inline-block;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 50px;
+    /* background-color: #eb1768; */
+    position: relative;
+    z-index: 1;
+}
+.our-team .pic::before{
+    content: "";
+    width: 100%;
+    height: 0;
+    border-radius: 50%;
+    background-color: #46a85a;
+    position: absolute;
+    bottom: 135%;
+    right: 0;
+    left: 0; 
+    transform: scale(3);
+    transition: all 0.3s linear 0s;
+}
+.our-team:hover{
+    transform: scale(1.07);
+}
+.our-team:hover .pic::before{
+    height: 100%;
+}
+.our-team .pic::after{
+    content: "";
+    width: 100%;
+    height: 99%;
+    border-radius: 50%;
+    background: #46a85a;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.our-team .pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 0.9s ease 0s;
+}
+:hover .pic img{
+    box-shadow: 0 0 0 14px #f7f5ec;
+    transform: scale(0.7);
+}
+.our-team .team-content{
+    margin-bottom: 30px;
+}
+.our-team .title{
+    font-size: 22px;
+    font-weight: 700;
+    color: #4e5052;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.our-team .post{
+    display: block;
+    font-size: 15px;
+    color: #4e5052;
+    text-transform: capitalize; 
+}
+.our-team .social{
+    width: 100%;
+    padding: 0;
+    margin:0;
+    background: #46a85a;
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    transition: all 0.5s ease 0s;
+
+}
+
+.our-team:hover .social{
+    bottom: 0;
+}
+.our-team .social li{
+ display: inline-block;
+}
+.our-team .social li a{
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+    color: white;transition: all 0.5s ease 0s;
+   }
+   .our-team .social li a:hover{
+       color: #eb1768;
+       background: #f7f5ec;
+       text-decoration: none;
+   }
+@media (max-width:520px){
+    .our-team:hover{
+        transform: scale(1);
+    }
+}

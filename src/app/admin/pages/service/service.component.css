@@ -1,0 +1,144 @@
+.about_us {
+  background: linear-gradient(rgb(39, 58, 150, 0.5), rgba(39, 58, 150, 0.5)),
+    url(/assets/images/service-banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+}
+._aboutTitle {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "oswald";
+  letter-spacing: 5px;
+  padding-top: 253px;
+}
+
+/* ========================================================================================= */
+/* Digital core capabilities */
+.core_capa_banner {
+  background: url(/assets/images/man-hand-holding-virtual-world.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 800px;
+  position: relative;
+}
+.capabilities_container {
+  background-color: #ffff;
+  opacity: 0.8;
+  text-align: center;
+  justify-content: center;
+  /* margin-top: 100px; */
+  margin: 100px 30px 20px 30px;
+  padding: 27px;
+  position: relative;
+}
+.digital_capa {
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+}
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+.core_capa_heading {
+  color: #1a1b1d;
+  font-family: "Oswald";
+  letter-spacing: -1px;
+}
+.core_capa_subheading {
+  font-size: 30px;
+  /* margin: 25px 25px 0 25px; */
+  margin: 23px 8px 0 8px !important;
+  font-weight: 400;
+  color: #46a85a;
+}
+.core_capa_para {
+  padding: 40px;
+  height: 340px;
+}
+.core_capa_para p {
+  opacity: 0.9;
+  /* text-align: justify; */
+  font-size: 20px;
+  line-height: 2;
+}
+.get_touch_btn {
+  padding: 10px 24px;
+  color: white;
+  font-size: 20px;
+  background-color: #46a85a;
+  border: 0;
+  outline: 0;
+}
+.get_touch_btn:hover {
+  font-size: 26px;
+  background: #000;
+  opacity: 0.8;
+  color: #fff;
+  transition: all 0.9s;
+}
+@media (max-width: 300px) {
+  .core_capa_para {
+    padding: 25px;
+    height: 1000px !important;
+    line-height: 1 !important;
+  }
+  .core_capa_banner {
+    height: 800px !important;
+  }
+  .capabilities_container {
+    padding: 12px;
+    opacity: 0.9 !important;
+    height: 786px;
+  }
+  .core_capa_banner {
+    padding-top: 0 !important;
+  }
+}
+@media (max-width: 400px) {
+  .capabilities_container {
+    padding: 12px;
+    opacity: 0.9 !important;
+    height: 650px;
+  }
+}
+@media (max-width: 600px) {
+  .core_capa_para p {
+    opacity: 0.9;
+    font-size: 15px;
+    line-height: 2;
+  }
+  .core_capa_subheading {
+    font-size: 20px;
+  }
+}
+@media (max-width: 720px) {
+  .core_capa_subheading {
+    font-size: 22px;
+    margin: 23px 8px 17px 8px !important;
+    font-weight: 400;
+  }
+  .capabilities_container {
+    margin: 0 !important;
+  }
+}
+@media (max-width: 960px) {
+  .core_capa_para {
+    padding: 0px !important;
+    font-size: 15px;
+    height: 400px !important;
+    line-height: 1.5;
+  }
+}
+@media (max-width: 1140px) {
+  .capabilities_container {
+    margin: 100px 0px 20px 0px;
+  }
+  .core_capa_para {
+    padding: 40px;
+    height: 380px;
+  }
+}
